@@ -27,10 +27,16 @@ requirements:
   host:
     - r-base
     - r-rcolorbrewer
+    - r-combinat
+    - r-dplyr
+    - r-rlang
     - r-tibble
   run:
     - r-base
     - r-rcolorbrewer
+    - r-combinat
+    - r-dplyr
+    - r-rlang
     - r-tibble
 
 test:
