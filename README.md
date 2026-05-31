@@ -7,7 +7,7 @@ Home: https://CRAN.R-project.org/package=clustMixType
 
 Package license: GPL-2.0-or-later
 
-Summary: Functions to perform k-prototypes partitioning clustering for mixed variable-type data according to Z.Huang (1998): Extensions to the k-Means Algorithm for Clustering Large Data Sets with Categorical Variables, Data Mining and Knowledge Discovery 2, 283-304.
+Summary: Functions to perform k-prototypes partitioning clustering for mixed variable-type data according to Z.Huang (1998): Extensions to the k-Means Algorithm for Clustering Large Data Sets with Categorical Variables, Data Mining and Knowledge Discovery 2, 283-304 and G.Szepannek et al. (2025): Clustering Large Mixed-Type Data with Ordinal Variables, Adv Data Anal Classif 19, 749–767.
 
 Current build status
 ====================
