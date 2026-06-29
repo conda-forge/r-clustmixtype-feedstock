@@ -1,15 +1,15 @@
-{% set version = "0.5-1" %}
+{% set version = "0.5-2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-clustmixtype
-  version: "{{ version|replace("-", "_") }}"
+  version: {{ version|replace("-", "_") }}
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/clustMixType_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clustMixType/clustMixType_{{ version }}.tar.gz
-  sha256: da18f1e06a35f1444bbbdc9f11515939d17ee284d2178248caaf91d7c634cf5d
+  sha256: f46d8d2c04ec3445588bd8103eb7f80a8b7330a3500ddda1a0a6afca2cbceeb0
 
 build:
   number: 0
@@ -51,11 +51,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=clustMixType
   license: GPL-2.0-or-later
-  summary: "Functions to perform k-prototypes partitioning clustering for mixed variable-type
-    data according to Z.Huang (1998): Extensions to the k-Means Algorithm for Clustering
-    Large Data Sets with Categorical Variables, Data Mining and Knowledge Discovery
-    2, 283-304 and G.Szepannek et al. (2025): Clustering Large Mixed-Type Data with
-    Ordinal Variables, Adv Data Anal Classif 19, 749\u2013767."
+  summary: "Functions to perform k-prototypes partitioning clustering for mixed variable-type data according to Z.Huang (1998): Extensions to the k-Means Algorithm for Clustering Large Data Sets with Categorical Variables, Data Mining and Knowledge Discovery 2, 283-304 and G.Szepannek et al. (2025): Clustering Large Mixed-Type
+    Data with Ordinal Variables, Adv Data Anal Classif 19, 749–767."
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
