@@ -3,7 +3,7 @@
 
 package:
   name: r-clustmixtype
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   url:
@@ -32,6 +32,7 @@ requirements:
     - r-cluster
     - r-combinat
     - r-dplyr
+    - r-mclust
     - r-rlang
     - r-tibble
   run:
@@ -40,6 +41,7 @@ requirements:
     - r-cluster
     - r-combinat
     - r-dplyr
+    - r-mclust
     - r-rlang
     - r-tibble
 
